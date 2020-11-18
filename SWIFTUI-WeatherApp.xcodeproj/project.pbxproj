@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D95980CF2564EC9000FE1A3D /* WeatherButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95980CE2564EC9000FE1A3D /* WeatherButton.swift */; };
 		D9E35C77255E2A7700C1167E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E35C76255E2A7700C1167E /* AppDelegate.swift */; };
 		D9E35C79255E2A7700C1167E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E35C78255E2A7700C1167E /* SceneDelegate.swift */; };
 		D9E35C7B255E2A7700C1167E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E35C7A255E2A7700C1167E /* ContentView.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D95980CE2564EC9000FE1A3D /* WeatherButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherButton.swift; sourceTree = "<group>"; };
 		D9E35C73255E2A7700C1167E /* SWIFTUI-WeatherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SWIFTUI-WeatherApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9E35C76255E2A7700C1167E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D9E35C78255E2A7700C1167E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				D9E35C76255E2A7700C1167E /* AppDelegate.swift */,
 				D9E35C78255E2A7700C1167E /* SceneDelegate.swift */,
 				D9E35C7A255E2A7700C1167E /* ContentView.swift */,
+				D95980CE2564EC9000FE1A3D /* WeatherButton.swift */,
 				D9E35C7C255E2A7A00C1167E /* Assets.xcassets */,
 				D9E35C81255E2A7A00C1167E /* LaunchScreen.storyboard */,
 				D9E35C84255E2A7A00C1167E /* Info.plist */,
@@ -148,6 +151,7 @@
 			files = (
 				D9E35C77255E2A7700C1167E /* AppDelegate.swift in Sources */,
 				D9E35C79255E2A7700C1167E /* SceneDelegate.swift in Sources */,
+				D95980CF2564EC9000FE1A3D /* WeatherButton.swift in Sources */,
 				D9E35C7B255E2A7700C1167E /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,7 +293,7 @@
 				DEVELOPMENT_TEAM = AYMCPRG445;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "SWIFTUI-WeatherApp/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,7 +314,7 @@
 				DEVELOPMENT_TEAM = AYMCPRG445;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "SWIFTUI-WeatherApp/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
